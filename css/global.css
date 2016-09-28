@@ -1,37 +1,162 @@
-* {
-    box-sizing: border-box;
+.clearfix {
+    overflow: auto;
+    zoom: 1;
 }
 
 /*body {
-    /*text-align: center;*/
-    /*padding: 100px;
+    text-align: center;
+    padding: 100px;
 
 }*/
 
-#body {
+/*#body {
     padding: 200px
-}
+}*/
 
-.no-padding {
+/*.no-padding {
     padding: 0;
-}
+}*/
 
-body {
+/*body {
     background-color: green;
-    /*text-align: center;*/
+    text-align: center;
     padding: 100px;
 
-}
+}*/
 
 .box {
     width: 300px;
     height: 300px;
     padding: 10px 0 50px 20px;
-    /*border: 50px solid orange;*/
+    border: 50px solid orange;
     background-color: red;
-    /*margin-left: 50px;*/
-    /*margin-right: auto;*/
-    /*margin: 0 auto;*/
-    /*overflow-y: auto;
-    overflow-x: hidden;*/
+    margin-left: 50px;
+    margin-right: auto;
+    margin: 0 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
+
+main section {
+    width: 960px;
+    margin: 0 auto;
+}
+
+table {
+    float: left;
+    border:1px solid #EEEEEE;
+    width:300px;
+    background-color: #F7F7F7;
+    margin-right: 10px;
+}
+tr {
+    text-align: center;
+    color: #647176;
+
+}
+td {
+    padding:10px;
+}
+
+tr td {
+    border-bottom: 1px solid #EEEEEE;
+}
+
+tr:last-child td {
+    border:none;
+}
+
+.th1 {
+    background-color: #519251;
+    padding: 50px;
+}
+
+.line1 {
+    font-size: 18px;
+    color: white;
+}
+
+.line2 {
+    font-size: 90px;
+    color: white;
+}
+
+.line3 {
+    font-size: 18px;
+    color: #A7C8A7;
+}
+
+.table1 {
+    color: #A7C8A7;
+    font-size: 18px;
+}
+
+.th2 {
+    color: white;
+    background-color: #2C4985;
+    padding: 50px;
+    font-size: 18px;
+}
+.th2 span {
+    font-size: 90px;
+}
+.th3 {
+    color: white;
+    background-color: black;
+    padding: 50px;
+    font-size: 18px;
+}
+.th3 span {
+    font-size: 90px;
+}
+
+.thbutton {
+    background-color: white;
+    padding: 20px;
+
+}
+
+.backgroundimage {
+    background: url(/background.jpg);
+    background-size: cover;
+    padding: 50px;
+
+}
+
+.divheader {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.button {
+    color: #323232;
+    background: white;
+    border: 2px solid #EEEEEE;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.foot {
+    background-color: black;
+    color: #787878;
+    text-align: center;
+    height: 20px;
+    font-size: 14px;
+    padding: 13px;
+}
+
+.a {
+    color: white;
+}
+p {
+    color: #5A676D;
+}
+.column {
+    display: inline-block;
+    columns: 2;
+    padding: 30px;
+}
+
+
+Contact GitHub API Training Shop Blog About
