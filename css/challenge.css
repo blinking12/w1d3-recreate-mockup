@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+}
+
+.box {
+    background-color: red;
+    width: 30vw;
+    height: 30vw;
+    display: inline-block;
+    /*margin-right: 20px;*/
+
+}
