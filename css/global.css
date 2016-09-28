@@ -49,11 +49,13 @@ table {
     background-color: #F7F7F7;
     margin-right: 10px;
 }
+
 tr {
     text-align: center;
     color: #647176;
 
 }
+
 td {
     padding:10px;
 }
@@ -64,6 +66,31 @@ tr td {
 
 tr:last-child td {
     border:none;
+}
+
+.head1 {
+    font-size: 14px;
+    color: #525961;
+    padding-right: 25px;
+    padding-left: 10px;
+}
+
+.head2 {
+    font-size: 14px;
+    color: #777777;
+    padding: 15px;
+}
+
+.head3 {
+    font-size: 14px;
+    color: #262626;
+    padding: 15px;
+}
+
+.head4 {
+    font-size: 14px;
+    color: #777777;
+    padding: 15px;
 }
 
 .th1 {
@@ -92,41 +119,62 @@ tr:last-child td {
 }
 
 .th2 {
-    color: white;
     background-color: #2C4985;
     padding: 50px;
+}
+
+.row1 {
     font-size: 18px;
-}
-.th2 span {
-    font-size: 90px;
-}
-.th3 {
     color: white;
+}
+
+.row2 {
+    font-size: 90px;
+    color: white;
+}
+
+.row3 {
+    font-size: 18px;
+    color: #95A3C2;
+}
+
+.th3 {
     background-color: black;
     padding: 50px;
-    font-size: 18px;
 }
-.th3 span {
+
+.lane1 {
+    font-size: 18px;
+    color: white;
+}
+
+.lane2 {
     font-size: 90px;
+    color: white;
+}
+
+.lane3 {
+    font-size: 18px;
+    color: #878787;
 }
 
 .thbutton {
     background-color: white;
     padding: 20px;
-
 }
 
 .backgroundimage {
     background: url(/background.jpg);
     background-size: cover;
-    padding: 50px;
-
+    padding: 70px;
+    height: 120px;
 }
 
 .divheader {
     color: white;
     text-align: center;
     font-size: 30px;
+    padding: 30px;
 }
 
 .button {
