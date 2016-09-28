@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+/*body {
+    /*text-align: center;*/
+    /*padding: 100px;
+
+}*/
+
+#body {
+    padding: 200px
+}
+
+.no-padding {
+    padding: 0;
+}
+
+body {
+    background-color: green;
+    /*text-align: center;*/
+    padding: 100px;
+
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    padding: 10px 0 50px 20px;
+    /*border: 50px solid orange;*/
+    background-color: red;
+    /*margin-left: 50px;*/
+    /*margin-right: auto;*/
+    /*margin: 0 auto;*/
+    /*overflow-y: auto;
+    overflow-x: hidden;*/
+}
